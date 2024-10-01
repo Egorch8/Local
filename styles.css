@@ -1,0 +1,143 @@
+a{
+    all: unset;
+}
+
+.post {
+    background-color: black;
+    width: 700px;
+    color: white;
+    padding:10px;
+    margin:auto;
+    margin-bottom: 10px ;
+}
+
+
+.post img {
+    width: 100%;
+}
+
+body{
+    background-color: grey;
+    background-image: url(https://static.tildacdn.com/tild6562-6365-4430-a363-333633653330/Tork-Background-005.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+.head {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 10px;
+    display: flex;
+    background-color: black;
+    color: white;
+    padding:10px;
+    margin:auto;
+    margin-bottom: 10px ;
+}
+
+.head-image{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin: 5px 20px;
+}
+
+.head p{
+  padding: 12px;
+  cursor:pointer;
+}
+
+.disable {
+  cursor:not-allowed;
+  color: darkgrey;
+}
+
+.head p:hover {
+    color: orangered;
+    
+}
+
+.head-image:hover{
+    border-radius: 0%
+}
+
+.like{
+    float:right;
+    font-size: 24px;
+    user-select: none;
+    display: flex;
+    margin-right: 3%;
+}
+
+.plus {
+    margin-right: 3px;
+    color: green;
+    cursor: pointer;
+}
+
+.minus{
+    margin-left: 3px;
+    color: red;
+    cursor:pointer;
+}
+
+.comment-feed h2{
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.comment-list{
+    margin: 0 0 12px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.comment-list .usercomment{
+    position: relative;
+    display: flex;
+    padding: 10px 12px;
+    margin-bottom: 6px;
+    margin-right: 12px;
+    border-right: 14px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.comment-form{
+    display: flex;
+    margin-bottom: 30px;
+    padding: 20px 12px;
+}
+
+.comment-inner{
+    position: relative;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.comment-field{
+    width: 97%;
+    height: 30px;
+    padding: 0 10px;
+    border: solid;
+    background-color: whitesmoke;
+    font: inherit;
+    font-size: 14px;
+    color: indigo;
+}
+
+.button{   
+    cursor: pointer;   
+    color: white;
+}
+
+.post1{
+    background-color: rgb(74, 173, 238);
+    background-size: 100%;
+    color: white;
+    padding:10px;
+    margin:auto;
+    width: 90%; 
+    margin-bottom: 100%;
+    
+}
